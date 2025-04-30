@@ -1,0 +1,59 @@
+print("welcome to simple quiz, using python!\n")
+
+name = input("what is your name? ")
+idnum = input("what is your id number? ")
+score = 0
+
+print("\n")
+print("==================================================================")
+print("1. how many plains you have when your are inside virual riality?")
+print("   a. 8 plain\n   b. 6 plane\n   c. 3 plane\n   d. none")
+answer = input("type your answers 'a' or 'b' or 'c' or 'd' : ").lower()
+if answer == "d":
+    print("you're correct...")
+    score += 1
+else:
+    print("wrong! the answer is d. none")
+
+print("\n")
+print("2. how many states does america have?")
+print("   a. 49 states\n   b. 50 states\n   c. 51 states\n   d. none")
+answer = input("type your answers 'a' or 'b' or 'c' or 'd' : ").lower()
+if answer == "b":
+    print("you're correct...")
+    score += 1
+else:
+    print("wrong! the answer is b. 50 states")
+
+print("\n")
+print("3. in which continent you'll find the deepest point in the ocean?")
+print("   a. Europe\n   b. asia\n   c. Africa\n   d. none")
+answer = input("type your answers as 'a' or 'b' or 'c' or 'd' : ").lower()
+if answer == "b":
+    print("you're correct...")
+    score += 1
+else:
+    print("wrong! the answer is b. asia")
+
+print("\n")
+print("4. if i add 53 banana to 27 orange, then i give away 41 banana and 15 orange. how many remained")
+print("   a. 11 banana,13 orange\n   b. 10 banana,11 orange\n   c. 13 banana,10 orange\n   d. none")
+answer = input("type your answers as 'a' or 'b' or 'c' or 'd' : ").lower()
+if answer == "d":
+    print("you're correct...")
+    score += 1
+else:
+    print("wrong! the answer is d. none")
+
+print("\n")
+print("5. what is python data type that ask a user for true or false?")
+print("   a. print\n   b. input\n   c. boolean\n   d. none")
+answer = input("type your answers as 'a' or 'b' or 'c' or 'd' : ").lower()
+if answer == "c":
+    print("you're correct...")
+    score += 1
+else:
+    print("wrong! the answer is c. boolean")
+print("==================================================================")
+print("\n")
+print("your have a total of " +str(score)+ " correct answers...")
